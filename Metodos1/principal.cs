@@ -16,8 +16,6 @@ namespace Metodos1
             float a, b;
             do
             {
-                float resp;
-
                 Console.WriteLine("Ingrese el primer número");
                 a = float.Parse(Console.ReadLine());
 
@@ -36,33 +34,25 @@ namespace Metodos1
                 {
                     case 1:
 
-                        resp = suma(a, b);
-
-                        Console.WriteLine("La suma es: " + resp);
+                        Console.WriteLine("La suma de los números es: " + suma(a, b));
 
                     break;
 
                     case 2:
 
-                        resp = resta(a, b);
-
-                        Console.WriteLine("La resta es: " + resp);
+                        Console.WriteLine("La resta de los números es: " + resta(a, b));
             
                     break;
 
                     case 3:
 
-                        resp = multiplicacion(a, b);
-
-                        Console.WriteLine("La multiplicación es: " + resp);
+                        Console.WriteLine("La multiplicación de los números es: " + multiplicacion(a, b));
 
                     break;
 
                     case 4:
 
-                        resp = division(a, b);
-
-                        Console.WriteLine("La división es: " + resp);
+                        Console.WriteLine("La división de los números es: " + division(a, b));
 
                     break;
 
